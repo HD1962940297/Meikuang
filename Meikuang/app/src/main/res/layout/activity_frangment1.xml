@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="hdd.com.meikuang.fengji.Fragment1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/F1_header"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:paddingLeft="10dp"
+            android:src="@drawable/zhinanzhen"/>
+        <TextView android:id="@+id/F1_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:text="2016-03-30 10:09:23"/>
+
+    </LinearLayout>
+    <hdd.com.meikuang.fengji.CircleProgressView
+        android:id="@+id/F1_circle_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:location="left"
+        app:progress_paint_color="#FF4081"
+        app:progress_paint_width="4dp"
+        app:progress_text_color="#3F51B5"
+        app:progress_text_size="16sp" />
+    <TextView
+        android:id="@+id/F1_mingzi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="风量"
+        android:paddingTop="10dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/F2_header"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:paddingLeft="10dp"
+            android:src="@drawable/zhinanzhen"/>
+        <TextView android:id="@+id/F2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:text="2016-03-30 10:08:33"/>
+
+    </LinearLayout>
+    <hdd.com.meikuang.fengji.CircleProgressView
+        android:id="@+id/F2_circle_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:location="left"
+        app:progress_paint_color="#FF4081"
+        app:progress_paint_width="4dp"
+        app:progress_text_color="#3F51B5"
+        app:progress_text_size="16sp" />
+    <TextView
+        android:id="@+id/F2_mingzi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="风压"
+        android:paddingTop="10dp"/>
+
+</LinearLayout>

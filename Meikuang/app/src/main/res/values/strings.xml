@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">矿井安全检测</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank111_fragment">Hello blank fragment</string>
+    <string name="gongre_yuce">实时预测对策</string>
+    <string name="gongre_pingjia">系统评价</string>
+</resources>

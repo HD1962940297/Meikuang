@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hdd.com.meikuang.Fragment.Fragment1">
+
+    <FrameLayout
+        android:layout_marginTop="100dp"
+        android:id="@+id/bu_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/bu_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="水仓1"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@color/back"/>
+        <Button
+            android:id="@+id/bu_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="水仓2"
+            android:layout_weight="1"
+            android:background="@color/back"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
