@@ -25,6 +25,7 @@
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -32,10 +33,14 @@
         <activity android:name=".Sign" />
         <activity android:name=".ZhuActivity" />
         <activity android:name=".fengji.fengjiActivity" />
-        <activity android:name=".pidai.pidaiActivity"/>
-        <activity android:name=".gongre.GRMainActivity"/>
-        <activity android:name=".gongre.GRYuce"/>
-        <activity android:name=".gongre.GRPingjia"/>
+        <activity android:name=".pidai.pidaiActivity" />
+        <activity android:name=".gongre.GRMainActivity" />
+        <activity android:name=".gongre.GRYuce" />
+        <activity android:name=".gongre.GRPingjia" />
+        <activity android:name=".pidai.Fragment1" />
+        <activity android:name=".pidai.Fragment2" />
+        <activity android:name=".pidai.Fragment3" />
+        <activity android:name=".pidai.Fragment4"></activity>
     </application>
 
 </manifest>
